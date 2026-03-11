@@ -1,28 +1,32 @@
-#langchain core
+# LangChain core
 langchain
 langchain-core
+langchain-community
+langchain-text-splitters
 
-#openai Integration
+# Providers / Integrations
 langchain-openai
 openai
+tiktoken
 
-# Anthropic Integration
 langchain-anthropic
+anthropic
 
-# Google Gemini Integration(PALM)
 langchain-google-genai
 google-generativeai
 
-# Hugging Face Integration
 langchain-huggingface
 transformers
 huggingface_hub
 
-python-dotenv
+# Vector stores
+chromadb
 
+# Data & Typing
+pydantic
 numpy
 scikit-learn
-pydantic
- 
+python-dotenv
 
+# App / UI
 streamlit
