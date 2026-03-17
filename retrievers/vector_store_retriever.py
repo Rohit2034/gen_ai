@@ -4,7 +4,7 @@ import os
 from langchain_openai import AzureOpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
-
+load_dotenv()
 
 documents = [
     Document(page_content="Virat Kohli is an Indian cricketer known for his aggressive batting and leadership.", metadata={"source": "doc1"}),
