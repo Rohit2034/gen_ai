@@ -30,3 +30,6 @@ python-dotenv
 
 # App / UI
 streamlit
+
+youtube_transcript_api
+faiss-cpu
